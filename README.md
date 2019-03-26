@@ -4,7 +4,7 @@ Generate and validate CPF ( Brazilian tax document )
 
 ## How to use
 
-import the itens
+import the item
 
     var ClassCPF = require('cpfgenerator');
  
@@ -16,7 +16,7 @@ generate a new CPF
 
     var newCPF = cpf.generate();
 
-validate a given CPF
+validate a given CPF (String)
 
     var isValidCPF = cpf.validate("12345678901");
 
