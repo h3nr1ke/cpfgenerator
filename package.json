@@ -1,0 +1,27 @@
+{
+  "name": "cpfgenerator",
+  "version": "1.0.0",
+  "description": "Generate and validate CPF ( Brazilian tax document )",
+  "main": "cpfgenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3nr1ke/cpfgenerator.git"
+  },
+  "keywords": [
+    "CPF",
+    "generator",
+    "validator",
+    "Brazilian",
+    "Tax",
+    "document"
+  ],
+  "author": "Henrique Deodato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h3nr1ke/cpfgenerator/issues"
+  },
+  "homepage": "https://github.com/h3nr1ke/cpfgenerator#readme"
+}
