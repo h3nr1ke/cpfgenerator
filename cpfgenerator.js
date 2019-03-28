@@ -108,6 +108,28 @@ var ClassCPF = class CPF {
     validate(cpf){
         return this._validate(cpf);
     }
+
+    // apply mask the mask AAA.AAA.AAA-AA to the given CPF
+    mask(cpf){
+        if( this._validate(cpf) ){
+            return cpf.replace(/^(\d{3})(\d{3})(\d{3})(\d{2})$/, '$1\.$2\.$3\-$4');
+        }
+        else{
+            console.log(`${cpf} is not a valid CPF, mask not applied`);
+            return cpf;
+        }
+    }
+
+    // remove everything that is not a number
+    unmask(cpf){
+        if( typeof cpf == "string" ){
+            return cpf.replace(/[^0-9]/g,"");
+        }
+        else{
+            console.log(`${cpf} is not valid to be unmasked, please provide a string following the format AAA.AAA.AAA-AA `);
+            return cpf;
+        }
+    }
 };
 
 module.exports = ClassCPF;
