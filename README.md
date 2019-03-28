@@ -22,11 +22,11 @@ validate a given CPF (String)
 
 mask a given CPF (String)
 
-    var isValidCPF = cpf.mask("12345678901"); // 123.456.789-01
+    var maskedCPF = cpf.mask("12345678901"); // 123.456.789-01
 
 unmask a given CPF (String)
 
-    var isValidCPF = cpf.unmask("123.456.789-01"); // 12345678901
+    var unmaskedCPF = cpf.unmask("123.456.789-01"); // 12345678901
 
 
 Simple like that =)
