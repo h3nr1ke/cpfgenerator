@@ -39,4 +39,4 @@ Simple like that =) / Simple assim =)
 
 If you think this module was useful to you, consider donating / Se você achou este plugin útil, considere fazer um doação
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](h3nr1ke@gmail.com)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=h3nr1ke%40gmail.com&currency_code=USD&source=url)
