@@ -2,7 +2,7 @@
 
 Generate and validate CPF ( Brazilian tax document )
 
-## Instalation / Instalação
+## Installation / Instalação
 
     npm i cpfgenerator
 
